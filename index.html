@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./reset.css" /> -->
+    <title>Document</title>
+    <style>
+      a {
+        text-decoration: none;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        width: 120px;
+        padding: 7px 0;
+        margin: 5px 0;
+        margin-right: 5px;
+        text-align: center;
+        color: #333;
+
+        background-color: var(--bg-color);
+        color: var(--text-color);
+      }
+      div {
+        padding: 0;
+        margin: 0;
+        /* outline: 1px solid orange; */
+      }
+      article {
+        padding: 10px 15px;
+        min-height: 90vh;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+      }
+      p {
+        margin-bottom: 30px;
+      }
+      ul {
+        margin: 50px 0;
+      }
+      #dark:target {
+        /* outline: 1px solid deeppink; */
+
+        --text-color: lightblue;
+        --bg-color: darkblue;
+      }
+      #light:target {
+        outline: 1px solid green;
+
+        --text-color: darkblue;
+        --bg-color: lightblue;
+      }
+      :root {
+        --text-color: #393939;
+        --bg-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="dark">
+      <div id="light">
+        <nav>
+          <a href="#dark">dark mode</a>
+          <a href="#light">light mode</a>
+          <a href="#">reset mode</a>
+        </nav>
+        <hr />
+        <main>
+          <article>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              architecto blanditiis hic dolorem, nisi ullam? Ratione aliquid
+              eius repudiandae culpa eos, totam facere reiciendis. Quibusdam
+              porro ex deleniti hic omnis.
+            </p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur adipisic</li>
+              <li>blanditiis hic dolorem, nisi ullam? Ratione aliquid</li>
+              <li>eius repudiandae culpa eos, totam facere reiciendis</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisic</li>
+            </ul>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              architecto blanditiis hic dolorem, nisi ullam? Ratione aliquid
+              eius repudiandae culpa eos, totam facere reiciendis. Quibusdam
+              porro ex deleniti hic omnis.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              architecto blanditiis hic dolorem, nisi ullam? Ratione aliquid
+              eius repudiandae culpa eos, totam facere reiciendis. Quibusdam
+              porro ex deleniti hic omnis.
+            </p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur adipisic</li>
+              <li>blanditiis hic dolorem, nisi ullam? Ratione aliquid</li>
+              <li>eius repudiandae culpa eos, totam facere reiciendis</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisic</li>
+            </ul>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              architecto blanditiis hic dolorem, nisi ullam? Ratione aliquid
+              eius repudiandae culpa eos, totam facere reiciendis. Quibusdam
+              porro ex deleniti hic omnis.
+            </p>
+          </article>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
